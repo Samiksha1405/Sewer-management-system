@@ -1,0 +1,151 @@
+body {
+  background-color: #EBE3D5;
+  margin: 0;
+
+  font-family: Cormorant Garamond, serif;
+  font-size: 20px;
+}
+
+.container{
+  color: black;
+
+
+
+
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:25px;
+  -webkit-text-stroke: .8px black; /* For webkit browsers */
+  text-stroke: .8px black; /* Standard property */
+}
+.titillium-web-light {
+
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align:center;
+
+}
+.oswald-thin {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50px;
+  font-style: normal;
+}
+.data-container {
+    text-align: center;
+}
+
+#weightX{
+  display: block;
+  text-align:center;
+}
+#weightY{
+  display: block;
+  text-align:center;
+}
+#weightZ{
+  display: block;
+  text-align:center;
+}
+
+
+.precautions{
+  text-align: left;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+section {
+    margin-bottom: 15px;
+}
+
+
+h4 {
+    display: inline;
+    font-weight: bold;
+}
+
+p {
+    display:inline;
+    margin-left:0px;
+}
+
+
+
+
+
+
+
+
+        .btn {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 50px;
+            transition: all .2s;
+            position: relative;
+            font-size: 16px;
+
+              font-family: "Titillium Web", sans-serif;
+              font-weight: 500;
+              margin-bottom: 15px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-white {
+            background-color: #FAF0D7;
+            color: #777;
+            border: 2px solid #777;
+        }
+
+        .btn::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .4s;
+        }
+
+        .btn-white::after {
+            background-color: #fff;
+        }
+
+        .btn:hover::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+
+        .btn-animated {
+            animation: moveInBottom 5s ease-out;
+            animation-fill-mode: backwards;
+        }
+
+        @keyframes moveInBottom {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
